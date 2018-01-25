@@ -4,6 +4,7 @@ class AddressesController < ApplicationController
   end
 
   def index
+    binding.pry
     @addresses = Address.all
   end
 
