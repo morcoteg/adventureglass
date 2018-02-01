@@ -22,6 +22,7 @@ gem 'bluepill'
 gem 'capistrano', '2.15.4'
 gem 'mail'
 gem 'sidekiq' # read more at http://railscasts.com/episodes/366-sidekiq
+gem 'devise'
 
 group :development, :test do
   gem 'faker'
